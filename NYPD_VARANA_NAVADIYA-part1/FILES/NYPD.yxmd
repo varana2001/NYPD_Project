@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>NYPD_Arrest_Data__Year_to_Date__20250208.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ARREST_KEY" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="ARREST_DATE" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="PD_CD" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="PD_DESC" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="KY_CD" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="OFNS_DESC" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="LAW_CODE" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="LAW_CAT_CD" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="ARREST_BORO" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="ARREST_PRECINCT" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="JURISDICTION_CODE" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="AGE_GROUP" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="PERP_SEX" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="PERP_RACE" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="X_COORD_CD" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="Y_COORD_CD" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+            <Field name="New Georeferenced Column" size="254" source="File: C:\Users\rutup\Desktop\DAMG7370\nypd-2\NYPD_Arrest_Data__Year_to_Date__20250208.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="246" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\athar\AppData\Local\Temp\Alteryx\Engine_12476_2b0032b40f0f4894badd7df31d38d0f4_\Engine_12476_1ee14ebc6f7b4b09b50931c2eb08edc2~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="282" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNull</Operator>
+            <Field>OFNS_DESC</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2025-02-13 16:07:17</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>" "</Operand>
+              <StartDate>2025-02-13 16:07:17</StartDate>
+              <EndDate>2025-02-13 16:07:17</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IsNull([OFNS_DESC])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\athar\AppData\Local\Temp\Alteryx\Engine_12476_2b0032b40f0f4894badd7df31d38d0f4_\Engine_12476_3f05f7b532504340863e67ba43e0538f~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\athar\AppData\Local\Temp\Alteryx\Engine_12476_2b0032b40f0f4894badd7df31d38d0f4_\Engine_12476_28db1a73ba6f4e4aad074f64320966ae~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="198" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">True</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"ARREST_KEY","ARREST_DATE","PD_CD","PD_DESC","KY_CD","OFNS_DESC","LAW_CODE","LAW_CAT_CD","ARREST_BORO","ARREST_PRECINCT","JURISDICTION_CODE","AGE_GROUP","PERP_SEX","PERP_RACE","X_COORD_CD","Y_COORD_CD","Latitude","Longitude","New Georeferenced Column"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">True</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="186" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>ARREST_DATE</InputFieldName>
+          <Language>English</Language>
+          <Format>MM/dd/yyyy</Format>
+          <OutputFieldName>ARRESTDATE</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert ARREST_DATE From:
+MM/dd/yyyy</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="438" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\athar\AppData\Local\Temp\Alteryx\Engine_12476_2b0032b40f0f4894badd7df31d38d0f4_\Engine_12476_f4f6c10306524a12a469579150d26ccd~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="318" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ARREST_KEY" selected="True" />
+            <SelectField field="ARREST_DATE" selected="False" />
+            <SelectField field="ARRESTDATE" selected="True" />
+            <SelectField field="PD_CD" selected="True" type="Int32" size="4" />
+            <SelectField field="PD_DESC" selected="True" />
+            <SelectField field="KY_CD" selected="True" type="Int32" size="4" />
+            <SelectField field="OFNS_DESC" selected="True" />
+            <SelectField field="LAW_CODE" selected="True" />
+            <SelectField field="LAW_CAT_CD" selected="True" />
+            <SelectField field="ARREST_BORO" selected="True" />
+            <SelectField field="ARREST_PRECINCT" selected="True" type="Int32" size="4" />
+            <SelectField field="JURISDICTION_CODE" selected="True" type="Int32" size="4" />
+            <SelectField field="AGE_GROUP" selected="True" />
+            <SelectField field="PERP_SEX" selected="True" />
+            <SelectField field="PERP_RACE" selected="True" />
+            <SelectField field="X_COORD_CD" selected="True" type="FixedDecimal" size="254.0" />
+            <SelectField field="Y_COORD_CD" selected="True" type="FixedDecimal" size="254.0" />
+            <SelectField field="Latitude" selected="True" type="Float" size="4" />
+            <SelectField field="Longitude" selected="True" type="Float" size="4" />
+            <SelectField field="New Georeferenced Column" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="7" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="False" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output26" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="7b5f463f-aafe-4700-bace-47c7258d1ac7" />
+      <Telemetry>
+        <PreviousWorkflowId value="d15d8fbc-aa91-4922-a5a4-4682fb71216b" />
+        <OriginWorkflowId value="d15d8fbc-aa91-4922-a5a4-4682fb71216b" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
