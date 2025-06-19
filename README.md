@@ -1,12 +1,12 @@
 # NYPD Arrest Data Pipeline & Dashboard
 
-A data engineering and analytics project to ingest, model, and visualize NYPD Arrest Year-to-Date data using Azure Data Factory, Snowflake, Alteryx, Tableau, and Power BI. The project aims to provide insights into crime trends across New York City by location, time, crime type, and demographics.
+A data engineering and analytics project to ingest, model and visualize NYPD Arrest Year-to-Date data using Azure Data Factory, Snowflake, Alteryx, Tableau and Power BI. The project aims to provide insights into crime trends across New York City by location, time, crime type and demographics.
 
 ## 🚀 Project Objectives
 
 - Build a dimensional model for arrest analysis
 - Design a robust ETL pipeline from raw CSV to Snowflake
-- Visualize patterns in crime types, demographics, and boroughs using dashboards
+- Visualize patterns in crime types, demographics and boroughs using dashboards
 
 ## 📊 Tools & Technologies
 
@@ -27,7 +27,7 @@ A data engineering and analytics project to ingest, model, and visualize NYPD Ar
 - Robust staging pipeline using ADF + Snowflake
 - Data quality checks and profiling via Alteryx
 - Logical and physical data models with fact & dimension tables
-- Dashboards for time-based, geographic, and demographic analysis
+- Dashboards for time-based, geographic and demographic analysis
 
 ## 📁 Project Structure
 
